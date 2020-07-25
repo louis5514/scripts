@@ -1,13 +1,8 @@
 #!/bin/bash
 
 
-if
-	[ ${sudo} =ne 0 ]
+lscpu
+cat /etc *release
+nproc
+lsblk
 
-then
-	echo "you need root access"
-fi
-	lscpu
-	cat /etc/*release
-	nproc
-	lsblk
