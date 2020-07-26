@@ -2,7 +2,7 @@
 
 
 lscpu
-cat /etc *release
+cat /etc/*release
 nproc
 lsblk
 
